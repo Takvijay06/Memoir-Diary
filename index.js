@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const loginreg = require('./routes/routes');
+const loginreg = require('./routes/route_LoginReg');
 
 app.use(express.json());
 app.use('/api' ,loginreg);
